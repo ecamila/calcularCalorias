@@ -2,7 +2,6 @@
   "name": "calckcals",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://euphonious-cranachan-bcd300.netlify.app",  // Tu URL pública de Netlify
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -32,5 +31,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://euphonious-cranachan-bcd300.netlify.app"  // Aquí agregas la URL de tu sitio en Netlify
 }
