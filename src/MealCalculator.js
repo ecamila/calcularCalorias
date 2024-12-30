@@ -20,7 +20,7 @@ const MealCalculator = () => {
     comida: [
       { id: 1, name: 'Soja texturizada', description: 'Soja texturizada con patatas: 90 g soja texturizada, 190 g tomate triturado, 290 g patata', calories: 603 },
       { id: 2, name: 'Garbanzos al horno', description: 'Garbanzos al horno con Heura: 340 g garbanzos cocidos, 85 g bocados Heura, 85 g verduras', calories: 425 },
-      { id: 3, name: 'Ñoquis con tofu', description: 'Ñoquis con tofu: 110 g tofu, 3 ml aceite de oliva', calories: 110 }
+      { id: 3, name: 'Ñoquis con tofu', description: 'Ñoquis con tofu: 130 g ñoquis (140 kcal), 110 g tofu (120 kcal), 3 ml aceite de oliva (27 kcal)', calories: 287 }
     ],
     merienda: [
       { id: 1, name: 'Tortitas de arroz', description: 'Tortitas de arroz con chocolate: 5 tortitas (162.5 kcal), 90 g plátano (aprox. 60 kcal)', calories: 222.5 },
