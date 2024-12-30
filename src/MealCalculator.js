@@ -13,19 +13,19 @@ const MealCalculator = () => {
 
   const meals = {
     desayuno: [
-      { id: 1, name: 'Tostadas con huevos', description: 'Tostadas con huevos (65 g pan Bimbo (160 kcal), 3 g hummus (25 kcal), 120 ml leche desnatada (45 kcal)', calories: 245 },
+      { id: 1, name: 'Tostadas con huevos', description: 'Tostadas con huevos: 65 g pan Bimbo (160 kcal), 3 huevos (180 kcal), 10 g hummus (25 kcal), 120 ml leche desnatada (45 kcal)', calories: 410 },
       { id: 2, name: 'Pan con chocolate', description: 'Pan con chocolate: 65 g pan Bimbo (160 kcal), 65 g fruta (60 kcal), 120 ml leche desnatada (45 kcal)', calories: 325 },
-      { id: 3, name: 'Gachas de avena', description: 'Gachas de avena: 40 g avena (120 kcal), 120 ml leche desnatada, 1 huevo (60 kcal), 120 ml leche desnatada para el café (45 kcal)', calories: 300 }
+      { id: 3, name: 'Tortitas de avena', description: 'Tortitas: 40 g avena (120 kcal), 120 ml leche desnatada, 1 huevo (60 kcal), 120 ml leche desnatada para el café (45 kcal)', calories: 300 }
     ],
     comida: [
-      { id: 1, name: 'Soja texturizada', description: 'Soja texturizada con patatas: 90 g soja texturizada, 190 g tomate triturado, 290 g patata', calories: 603 },
-      { id: 2, name: 'Garbanzos al horno con tiras vegetarianas', description: 'Garbanzos al horno con tiras vegetarianas: 250 g garbanzos cocidos (200 kcal), 170 g tiras vegetarianas del Lidl (290 kcal), 85 g verduras', calories: 520 },
-      { id: 3, name: 'Ñoquis con tofu', description: 'Ñoquis con tofu: 130 g ñoquis (140 kcal), 110 g tofu (120 kcal), 3 ml aceite de oliva (27 kcal)', calories: 287 }
+      { id: 1, name: 'Soja texturizada con patatas', description: 'Soja texturizada con patatas: 60 g soja texturizada (180 kcal), 190 g tomate triturado (57 kcal), 300 g patata (240 kcal), 100 g cebolla (40 kcal)', calories: 517 },
+      { id: 2, name: 'Garbanzos con tiras vegetarianas', description: 'Garbanzos con tiras vegetarianas: 250 g garbanzos cocidos (200 kcal), 170 g tiras vegetarianas del Lidl (290 kcal), 85 g verduras', calories: 520 },
+      { id: 3, name: 'Ñoquis con tofu', description: 'Ñoquis con tofu: 200 g ñoquis (215.38 kcal), 150 g tofu (163.64 kcal), 5 ml aceite de oliva (45 kcal)', calories: 424 }
     ],
     merienda: [
-      { id: 1, name: 'Tortitas de arroz', description: 'Tortitas de arroz con chocolate: 5 tortitas (162.5 kcal), 90 g plátano (aprox. 60 kcal)', calories: 222.5 },
-      { id: 2, name: 'Tortitas con huevo', description: 'Tortitas con huevo: 30 g tortitas de maíz (4 unidades), 1 huevo mediano (60 kcal)', calories: 120 },
-      { id: 3, name: 'Tortitas de queso', description: 'Tortitas de queso: 2 huevos medianos (120 kcal), 20 g queso (80 kcal)', calories: 120 }
+      { id: 1, name: 'Tortitas de arroz con chocolate', description: 'Tortitas de arroz con chocolate: 3 tortitas (97.5 kcal), 90 g plátano (90 kcal), 120 ml leche desnatada (45 kcal)', calories: 232.5 },
+      { id: 2, name: 'Tortitas con huevo', description: 'Tortitas con huevo: 30 g tortitas de maíz (4 unidades) (120 kcal), 2 huevos medianos (120 kcal), 120 ml leche desnatada (45 kcal)', calories: 285 },
+      { id: 3, name: 'Tortilla de queso', description: 'Tortilla de queso: 2 huevos medianos (120 kcal), 20 g queso (80 kcal), 120 ml leche desnatada (45 kcal)', calories: 245 }
     ],
     cena: [
       { id: 1, name: 'Hamburguesa', description: 'Hamburguesa: Hamburguesa Lidl pan Maxi Burger (350 kcal), queso High Protein (20 g, 47 kcal), 85 g verduras', calories: 435 },
